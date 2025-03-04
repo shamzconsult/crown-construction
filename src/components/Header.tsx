@@ -27,12 +27,12 @@ const Header = () => {
 
         <div className="max-w-screen-2xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <div className="h-[80px] w-[120px]">
+          <div className="h-[80px] w-[80px] rounded-full p-1 ">
             <Link href="/">
               <img
-                src="/"
+                src="/image/logo2.png"
                 alt="logo"
-                className="h-full w-full object-contain "
+                className="h-full w-full object-contain bg-white rounded-full"
               />
             </Link>
           </div>
