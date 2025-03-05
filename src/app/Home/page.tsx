@@ -6,6 +6,7 @@ import About from './_components/About'
 import Project from './_components/Project'
 import TeamSection from './_components/TeamSection'
 import TestimonialSection from './_components/Testimonial'
+import Question from './_components/Question'
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
         <Project/>
         <TeamSection/>
         <TestimonialSection/>
+        <Question/>
     </div>
   )
 }
