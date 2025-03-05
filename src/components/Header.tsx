@@ -46,25 +46,25 @@ const Header = () => {
             >
               <Link
                 href="#about"
-                className="text-base font-medium transition-colors duration-300 hover:text-gray-500"
+                className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
                 About
               </Link>
               <Link
                 href="#intro"
-                className="text-base font-medium transition-colors duration-300 hover:text-gray-500"
+                className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
                 Services
               </Link>
               <Link
                 href="#faq"
-                className="text-base font-medium transition-colors duration-300 hover:text-gray-500"
+                className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
                 FAQ
               </Link>
               <Link
                 href="/contact"
-                className="text-base font-medium transition-colors duration-300 hover:text-gray-500"
+                className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
                 Contact us
               </Link>

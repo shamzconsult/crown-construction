@@ -22,8 +22,8 @@ function About() {
                 </div>
 
                 {/* Image with Overlay */}
-                <div className='grid grid-cols-2 gap-10 lg:grid-cols-1 lg:gap-0'>
-                    <div className="relative h-48 rounded-lg overflow-hidden mb-10">
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-1 lg:gap-0'>
+                    <div className="relative h-48 rounded-lg overflow-hidden md:mb-10">
                         <Image
                             src="/image/Construction-engineer.webp" 
                             alt="Construction Site"
