@@ -34,10 +34,10 @@ function About() {
                         {/* Overlay */}
                         <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
                             <div className="text-gray-300 mt-4 px-6 text-center">
-                                <h3 className="text-2xl font-bold text-white text-center">
+                                <h3 className="text-lg md:text-2xl font-bold text-white text-center">
                                     Our Vision
                                 </h3>
-                                <p>
+                                <p className='text-sm md:text-lg'>
                                     To be a leading construction and property development company in
                                     Nigeria, setting the benchmark for innovation, reliability, and
                                     sustainability.
@@ -57,10 +57,10 @@ function About() {
                         {/* Overlay */}
                         <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
                             <div className="text-gray-300 mt-4 px-6 text-center">
-                                <h3 className="text-2xl font-bold text-white text-center">
+                                <h3 className="text-lg md:text-2xl font-bold text-white text-center">
                                     Our Mission
                                 </h3>
-                                <p>
+                                <p className='text-sm md:text-lg'>
                                     To deliver exceptional construction, design, and real estate services,
                                     contributing to Nigeria&apos;s infrastructural growth and economic
                                     development.
