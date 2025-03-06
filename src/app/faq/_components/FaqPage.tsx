@@ -90,7 +90,7 @@ function FaqPage() {
           </summary>
 
           <p className="mt-4 leading-relaxed text-gray-700">
-            We follow strict quality control processes, use high-quality materials, and work with experienced professionals. Our team conducts regular inspections and adheres to industry standards to ensure every project meets our clients' expectations.
+            We follow strict quality control processes, use high-quality materials, and work with experienced professionals. Our team conducts regular inspections and adheres to industry standards to ensure every project meets our clients expectations.
           </p>
         </details>
 

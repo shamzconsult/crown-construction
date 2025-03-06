@@ -9,8 +9,10 @@ function HeroVideo() {
         autoPlay
         loop
         muted
+        src="/video/handshake.mp4" 
+
       >
-        <source src="/video/construction-site.mp4" type="video/mp4" />
+        {/* <source src="/video/construction-site.mp4" type="video/mp4" /> */}
         Your browser does not support the video tag.
       </video>
 
