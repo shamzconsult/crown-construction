@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 function TeamSection() {
   return (
-    <section className="relative py-16 bg-gray-100">
+    <section className="relative py-16 ">
       <div className="container mx-auto max-w-screen-2xl px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4"> 
           {/* Left Side: Text */}

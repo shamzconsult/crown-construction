@@ -16,7 +16,7 @@ function Values() {
                     leading construction firm committed to providing
                     affordable housing and advancing sustainable
                     structures. Our mission goes beyond meeting the
-                    needs of individuals and organizations—it also
+                    needs of individuals and organizations, it also
                     includes safeguarding our environment.
                 </p>
                 
