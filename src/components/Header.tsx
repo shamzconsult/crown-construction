@@ -45,19 +45,19 @@ const Header = () => {
               }`}
             >
               <Link
-                href="#about"
+                href="/about"
                 className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
                 About
               </Link>
               <Link
-                href="#intro"
+                href="/services"
                 className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
                 Services
               </Link>
               <Link
-                href="#faq"
+                href="/faq"
                 className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
                 FAQ
@@ -95,13 +95,13 @@ const Header = () => {
           {isMenuOpen && (
             <nav className="absolute top-full left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center gap-4 text-black">
               
-              <Link className="text-base font-medium hover:text-gray-500" href="/offers">
+              <Link className="text-base font-medium hover:text-gray-500" href="/about">
                 About
               </Link>
-              <Link className="text-base font-medium hover:text-gray-500" href="/offers">
-                Introduction
-              </Link>
               <Link className="text-base font-medium hover:text-gray-500" href="/services">
+                Services
+              </Link>
+              <Link className="text-base font-medium hover:text-gray-500" href="/faq">
                 FAQ
               </Link>
               <Link className="text-base font-medium hover:text-gray-500" href="/contact">
