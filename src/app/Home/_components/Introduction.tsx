@@ -46,8 +46,8 @@ function Introduction() {
       </div>
 
       {/* Image area 1&2 */}
-      <div className="md:w-3/5 flex gap-4 mt-10 sm:mt-0">
-        <div className="w-1/2 flex flex-col gap-4">
+      <div className="md:w-3/5 md:flex gap-4 mt-10 sm:mt-10">
+        <div className="md:w-1/2 mb-4 md:mb-0 flex flex-col gap-4">
             <div className="h-10/12">
                 <img
                 src="/image/Construction1.jpg"
@@ -72,15 +72,15 @@ function Introduction() {
                         <MdOutlineEngineering />
                     </div>
                     <div  className=''>
-                        <h3 className="md:text-lg hidden md:block text-sm font-bold">20+</h3>
-                        <p className="text-sm text-gray-300 font-bold">Satisfied Clients </p>
+                        <h3 className="md:text-lg font-bold">20+</h3>
+                        <p className=" text-gray-300 font-bold">Satisfied Clients </p>
                     </div>
                    
                 </div>
             </div>
         </div>
 
-        <div className="w-1/2 flex flex-col gap-4">
+        <div className="md:w-1/2 flex flex-col gap-4">
             <div className="h-2/12 relative">
                 {/* Image 3&4*/}
                 <img
@@ -99,7 +99,7 @@ function Introduction() {
                     </div>
                     <div  className=''>
                         <h3 className="md:text-lg  font-bold">5+ Years</h3>
-                        <p className="text-sm hidden md:block text-gray-300 font-bold">Of Experience </p>
+                        <p className=" text-gray-300 font-bold">Of Experience </p>
                     </div>
                    
                 </div>
