@@ -55,21 +55,21 @@ function Project() {
                 alt="Project 3" 
                 width={300} 
                 height={200} 
-                className="w-1/3 object-cover " 
+                className="w-1/3 h-96 object-cover " 
             />
             <Image 
                 src="/image/house8.webp" 
                 alt="Project 4" 
                 width={300} 
                 height={200} 
-                className="w-1/3 object-cover " 
+                className="w-1/3 h-96 object-cover " 
             />
             <Image 
                 src="/image/House5.webp" 
                 alt="Project 5" 
                 width={300} 
                 height={200} 
-                className="w-1/3 object-cover " 
+                className="w-1/3 h-96 object-cover " 
             />
           </div>
         </div>

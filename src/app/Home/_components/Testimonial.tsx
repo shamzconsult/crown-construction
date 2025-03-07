@@ -7,37 +7,37 @@ const TestimonialSection = () => {
 
   const testimonials = [
     {
-      quote: "Crown Properties transformed our construction project from start to finish. Their team demonstrated exceptional professionalism, attention to detail, and delivered beyond our expectations. Highly recommend them!",
+      quote: "Crown Properties transformed our construction project from start to finish. Their team demonstrated exceptional professionalism, attention to detail, and delivered beyond our expectations.",
       name: "Ademakinwa Julius",
       stars: 5,
       image: "./image/avatar1.webp"
     },
     {
-      quote: "Working with Crown Properties was a game-changer for our construction needs. Their innovative approach and meticulous execution helped us complete our project on time and within budget. Outstanding service!",
+      quote: "Working with Crown Properties was a game-changer for our construction needs. Their innovative approach and meticulous execution helped us complete our project on time and within budget.",
       name: "Becky Daniels",
       stars: 4,
       image: "./image/avatar2.webp"
     },
     {
-      quote: "I was thoroughly impressed by Crown Properties' expertise and dedication. They understood our unique requirements and delivered a final product that exceeded all expectations. Truly worth every penny!",
+      quote: "I was thoroughly impressed by Crown Properties' expertise and dedication. They understood our unique requirements and delivered a final product that exceeded all expectations.",
       name: "Aromoke Williams",
       stars: 3,
       image: "./image/avatar1.webp"
     },
     {
-      quote: "Crown Properties provided excellent service throughout our construction project. Their attention to detail and commitment to quality ensured a smooth and successful build. Highly professional!",
+      quote: "Crown Properties provided excellent service throughout our construction project. Their attention to detail and commitment to quality ensured a smooth and successful build.",
       name: "Helen Martins",
       stars: 5,
       image: "./image/avatar2.webp"
     },
     {
-      quote: "We are absolutely delighted with the outcome of our project. Crown Properties combined innovative ideas with a strong commitment to deadlines, keeping us informed at every stage. Fantastic work!",
+      quote: "We are absolutely delighted with the outcome of our project. Crown Properties combined innovative ideas with a strong commitment to deadlines, keeping us informed at every stage.",
       name: "Mustapha Olaoye",
       stars: 4,
       image: "./image/avatar1.webp"
     },
     {
-      quote: "Crown Properties is professional, reliable, and incredibly talented. Their unique approach to construction has taken our project to the next level. I wouldn’t hesitate to recommend them to anyone!",
+      quote: "Crown Properties is professional, reliable, and incredibly talented. Their unique approach to construction has taken our project to the next level. I would not hesitate to recommend them to anyone!",
       name: "Sophia Olawale",
       stars: 5,
       image: "./image/avatar2.webp"
