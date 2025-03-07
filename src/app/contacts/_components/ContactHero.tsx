@@ -5,7 +5,7 @@ function ContactHero() {
     <div className="relative">
       <div className="bg-teal-900 h-[500px] flex flex-col items-center justify-center text-white relative z-10">
         <div className="text-center">
-        <h1 className="text-3xl md:text-5xl text-yellow-400 lg:text-7xl font-bold">Get in Touch with Us</h1>
+        <h1 className="text-4xl md:text-5xl text-yellow-400 lg:text-7xl font-bold">Get in Touch with Us</h1>
         <p className="mt-2 text-sm max-w-md mb-32 mx-auto">
         Have questions or need assistance? Reach out to us, and we will be happy to help.
         </p>
@@ -22,7 +22,7 @@ function ContactHero() {
       </div>
 
       {/* White Background Section Below */}
-      <div className="h-[100px] bg-gray-100 relative z-10"></div>
+      <div className="h-[10px] bg-gray-100 relative z-10"></div>
     </div>
   );
 }
