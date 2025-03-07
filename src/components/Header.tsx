@@ -45,6 +45,12 @@ const Header = () => {
               }`}
             >
               <Link
+                href="/"
+                className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
+              >
+                Home
+              </Link>
+              <Link
                 href="/about"
                 className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
               >
@@ -62,22 +68,16 @@ const Header = () => {
               >
                 FAQ
               </Link>
-              <Link
-                href="/contact"
-                className="text-base font-medium transition-colors duration-300 hover:text-gray-200"
-              >
-                Contact us
-              </Link>
+              
             </nav>
           </div>
 
-          {/* Signup / Get Started Button - Right-Aligned */}
           <div className="hidden md:flex">
             <Link
-              href="/signup"
+              href="/contacts"
               className="bg-white text-teal-900 px-6 py-2 rounded-sm text-base font-medium transition-all duration-300 hover:text-white hover:bg-teal-800"
             >
-              Get Started
+              Contact Us
             </Link>
           </div>
 
@@ -94,7 +94,9 @@ const Header = () => {
 
           {isMenuOpen && (
             <nav className="absolute top-full left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center gap-4 text-black">
-              
+              <Link className="text-base font-medium hover:text-gray-500" href="/about">
+                Home
+              </Link>
               <Link className="text-base font-medium hover:text-gray-500" href="/about">
                 About
               </Link>
@@ -104,15 +106,13 @@ const Header = () => {
               <Link className="text-base font-medium hover:text-gray-500" href="/faq">
                 FAQ
               </Link>
-              <Link className="text-base font-medium hover:text-gray-500" href="/contact">
-                Contact us
-              </Link>
+              
               {/* Get Started button inside mobile menu */}
               <Link
-              href="/signup"
+              href="/contacts"
               className="bg-teal-900 text-white px-6 py-2 rounded-sm text-base font-medium transition-all duration-300 hover:bg-teal-800"
             >
-              Get Started
+              Contact Us
             </Link>
             </nav>
           )}

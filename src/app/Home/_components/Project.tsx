@@ -7,7 +7,7 @@ function Project() {
     <div className='bg-teal-900'>
       <div className='max-w-screen-xl mx-auto py-10'>
         <div className='flex justify-between p-10'>
-          <h2 className='text-3xl md:text-5xl text-white'>Recent Projects</h2>
+          <h2 className='text-2xl md:text-5xl text-white'>Recent Projects</h2>
           <Link 
             href="/"
             className='bg-yellow-400 p-2 md:p-4 flex items-center gap-4 rounded-4xl'>

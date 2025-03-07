@@ -73,7 +73,7 @@ function About() {
 
           {/* Right Side: Video */}
           <div className="lg:col-span-1 flex items-center">
-            <div className="relative w-full h-96 rounded-lg overflow-hidden">
+            <div className="relative w-full h-full rounded-lg overflow-hidden">
               <video
                 src="/video/construction.mp4" 
                 controls

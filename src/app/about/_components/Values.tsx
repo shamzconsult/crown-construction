@@ -10,7 +10,7 @@ function Values() {
   return (
     <div className='bg-slate-900 '>
         <div className='mx-auto max-w-screen-xl p-6'>
-            <div className='py-10 max-w-3xl px-8'>
+            <div className='py-10 max-w-3xl pl-28'>
                 <h2 className='text-white text-3xl md:text-5xl mb-6'>Who are WE?</h2>
                 <p className='text-white'>Crown Properties and Constructions Limited is a
                     leading construction firm committed to providing

@@ -72,7 +72,7 @@ function Introduction() {
                         <MdOutlineEngineering />
                     </div>
                     <div  className=''>
-                        <h3 className="md:text-lg  font-bold">20+</h3>
+                        <h3 className="md:text-lg hidden md:block text-sm font-bold">20+</h3>
                         <p className="text-sm text-gray-300 font-bold">Satisfied Clients </p>
                     </div>
                    
@@ -99,7 +99,7 @@ function Introduction() {
                     </div>
                     <div  className=''>
                         <h3 className="md:text-lg  font-bold">5+ Years</h3>
-                        <p className="text-sm text-gray-300 font-bold">Of Experience </p>
+                        <p className="text-sm hidden md:block text-gray-300 font-bold">Of Experience </p>
                     </div>
                    
                 </div>
