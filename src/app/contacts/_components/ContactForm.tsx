@@ -22,9 +22,11 @@ function ContactForm() {
     const whatsappNumber = "2348145509593";  
 
     const whatsappMessage = `Hello, my name is ${formData.name}. 
+    I want to enquire about this, \nMessage: ${formData.message}
+    Thanks
     \nEmail: ${formData.email} 
     \nPhone: ${formData.phone} 
-    \nMessage: ${formData.message}`;
+    `;
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
@@ -107,9 +109,8 @@ function ContactForm() {
                 <div className='border rounded-lg'>
                   <label className="sr-only" htmlFor="message">Message</label>
                   <textarea
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full rounded-lg h-[150] border-gray-200 p-3 text-sm"
                     placeholder="Message"
-                    rows="8"
                     id="message"
                     value={formData.message}
                     onChange={handleChange}

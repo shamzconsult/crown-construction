@@ -3,7 +3,7 @@ import React from 'react'
 
 function Vision() {
   return (
-    <div className='mx-auto max-w-screen-lg py-20'>
+    <div className='mx-auto max-w-screen-lg py-20' id='vision'>
         <div>
             <div className='md:flex gap-10 p-6'>
                 <div className='border mb-10 md:mb-0 shadow-md rounded-2xl p-6'>
