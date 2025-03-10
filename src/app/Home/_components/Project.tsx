@@ -9,9 +9,9 @@ function Project() {
         <div className='flex justify-between p-10'>
           <h2 className='text-2xl md:text-5xl text-white'>Recent Projects</h2>
           <Link 
-            href="/"
+            href="/services"
             className='bg-yellow-400 p-2 md:p-4 flex items-center gap-4 rounded-4xl'>
-              EXPLORE ALL
+              VIEW ALL
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="size-4 rtl:rotate-180"

@@ -3,7 +3,7 @@ import React from 'react'
 function ServiceList() {
   return (
     <div className='mx-auto max-w-screen-xl p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-20'>
-        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg ">
+        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg" id='contracting'>
             <img
                 alt=""
                 src="/image/Construction1.jpg"
@@ -50,7 +50,7 @@ function ServiceList() {
             </div>
         </article>
 
-        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
+        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg" id='smart-homes'>
             <img
                 alt=""
                 src="/image/Smart-Home-Technology.jpg"
@@ -74,7 +74,7 @@ function ServiceList() {
             </div>
         </article>
 
-        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
+        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg" id='construction'>
             <img
                 alt=""
                 src="/image/construction4.webp"
@@ -122,7 +122,7 @@ function ServiceList() {
             </div>
         </article>
 
-        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg">
+        <article className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg" id='materials'>
             <img
                 alt=""
                 src="/image/contracting-material.png"
