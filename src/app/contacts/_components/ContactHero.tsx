@@ -13,7 +13,7 @@ function ContactHero() {
         </div>
       </div>
 
-      <div className="relative z-20 bg-gray-100 flex justify-center">
+      <div className="relative z-10 bg-gray-100 flex justify-center">
         <img
           src="/image/Contact-Us-Hero-Image.jpg"
           alt="Construction Engineer"

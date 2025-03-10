@@ -34,7 +34,7 @@ function Hero() {
 
                 <div className="mt-8 flex flex-wrap gap-4 text-center">
                 <a
-                    href="#"
+                    href="Services"
                     className="block w-full rounded-sm bg-white px-12 py-3 text-sm font-medium text-teal-900 shadow-sm hover:text-white hover:bg-teal-900 sm:w-auto"
                 >
                     Learn More
