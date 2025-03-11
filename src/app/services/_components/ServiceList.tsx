@@ -10,7 +10,7 @@ function ServiceList() {
                 className="absolute inset-0 h-full w-full object-cover"
             />
 
-            <div className="relative bg-gradient-to-t  from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+            <div className="relative bg-gradient-to-t  from-gray-900/80 to-gray-900/30 hover:from-gray-900/95 pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-6">
 
                 <a href="#">
@@ -33,7 +33,7 @@ function ServiceList() {
                 className="absolute inset-0 h-full w-full object-cover"
             />
 
-            <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+            <div className="relative bg-gradient-to-t from-gray-900/80 to-gray-900/30 hover:from-gray-900/95 pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-6">
 
                 <a href="#">
@@ -57,7 +57,7 @@ function ServiceList() {
                 className="absolute inset-0 h-full w-full object-cover"
             />
 
-            <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+            <div className="relative bg-gradient-to-t from-gray-900/80 to-gray-900/30 hover:from-gray-900/95 pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-6">
 
                 <a href="#">
@@ -81,7 +81,7 @@ function ServiceList() {
                 className="absolute inset-0 h-full w-full object-cover"
             />
 
-            <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+            <div className="relative bg-gradient-to-t from-gray-900/80 to-gray-900/30 hover:from-gray-900/95 pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-6">
 
                 <a href="#">
@@ -105,7 +105,7 @@ function ServiceList() {
                 className="absolute inset-0 h-full w-full object-cover"
             />
 
-            <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+            <div className="relative bg-gradient-to-t from-gray-900/80 to-gray-900/30 hover:from-gray-900/95 pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-6">
 
                 <a href="#">
@@ -129,7 +129,7 @@ function ServiceList() {
                 className="absolute inset-0 h-full w-full object-cover"
             />
 
-            <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+            <div className="relative bg-gradient-to-t from-gray-900/80 to-gray-900/30 hover:from-gray-900/95 pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-6">
 
                 <a href="#">
