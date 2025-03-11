@@ -89,7 +89,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="menu"
           >
-            <i className={`bi ${isMenuOpen ? "bi-x" : "bi-list"} text-white`}></i>
+            <i className={`bi ${isMenuOpen ? "bi-x" : "bi-list"} text-white cursor-pointer`}></i>
           </button>
 
           {isMenuOpen && (
