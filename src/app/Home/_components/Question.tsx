@@ -8,7 +8,7 @@ function Question() {
         <h2 className='md:text-6xl lg:text-7xl text-3xl font-sans font-bold text-teal-900 text-center'>
           Have any questions?
         </h2>
-        <Link href='/contacts' className='text-sm  text-center mt-6 bg-teal-900 p-4 text-white rounded-full'>
+        <Link href='/contacts' className='text-sm font-bold  text-center mt-6 outline border border-teal-900  p-4 text-teal-900 hover:bg-teal-900 hover:text-white rounded-2xl'>
           Send us a message
         </Link>
       </div>
