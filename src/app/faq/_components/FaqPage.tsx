@@ -5,15 +5,18 @@ function FaqPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-teal-900 text-white">
-        <div className="mx-auto max-w-screen-xl px-4 py-32 lg:items-center">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1
-              className="bg-gradient-to-r from-white via-blue-500 to-yellow-400 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-            >
-              Frequently Asked Questions.
+      <section 
+        className="relative bg-cover bg-center text-white"
+        style={{ backgroundImage: "url('/image/service-eng2.webp')" }}
+      >
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/50 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
-              <span className="sm:block"> Find Answers Here. </span>
+        <div className="relative mx-auto max-w-screen-xl px-4 py-32 lg:items-center">
+          <div className="mx-auto max-w-3xl text-center">
+            <h1 className="bg-gradient-to-r from-white via-blue-500 to-yellow-400 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
+              Frequently Asked Questions.
+              <span className="sm:block "> Find Answers Here. </span>
             </h1>
 
             <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
@@ -32,20 +35,21 @@ function FaqPage() {
                   <ul className="mt-8 flex gap-6">
                     <li>
                         <a
-                        href="#"
+                        href="https://www.linkedin.com/company/106672800/admin/dashboard/"
                         rel="noreferrer"
                         target="_blank"
                         className="text-gray-400 transition  hover:opacity-75"
                         >
-                        <span className="sr-only">Facebook</span>
+                        <span className="sr-only">LinkedIn</span>
 
                         <svg className="size-10 text-blue-400 outline p-1 rounded-full" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path
-                            fillRule="evenodd"
-                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                          <path 
+                            fillRule="evenodd" 
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.8 20h-2.4v-10h2.4v10zm-1.2-11.418c-.837 0-1.2-.558-1.2-1.236 0-.701.389-1.236 1.237-1.236.848 0 1.2.535 1.2 1.236 0 .678-.363 1.236-1.237 1.236zm12 11.418h-2.4v-5.326c0-1.274-.024-2.913-1.777-2.913-1.78 0-2.053 1.387-2.053 2.821v5.418h-2.4v-10h2.4v1.364h.034c.335-.635 1.155-1.364 2.376-1.364 2.541 0 3.42 1.673 3.42 4.008v5.992z"
                             clipRule="evenodd"
-                            />
+                          />
                         </svg>
+
                         </a>
                     </li>
 

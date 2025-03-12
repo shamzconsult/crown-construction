@@ -45,7 +45,7 @@ export function CarouselPlugin() {
                     />
                     <div className="absolute inset-0 bg-black opacity-65"></div>
                     {/* Text Overlay */}
-                    <div className="absolute inset-0 flex items-center justify-center text-white text-xl md:text-4xl font-bold">
+                    <div className="absolute inset-0 flex items-center justify-center text-white text-xl md:text-4xl lg:text-6xl font-bold">
                       {item.text}
                     </div>
                   </CardContent>
