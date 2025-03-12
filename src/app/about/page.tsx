@@ -3,7 +3,6 @@ import HeroVideo from './_components/HeroVideo'
 import Values from './_components/Values'
 import Vision from './_components/Vision'
 import LocationPage from './_components/LoacationPage'
-import TeamSection from './_components/TeamSection'
 
 function page() {
   return (
@@ -11,7 +10,7 @@ function page() {
         <HeroVideo/>
         <Values/>
         <Vision/>
-        <TeamSection/>
+        {/* <TeamSection/> */}
         <LocationPage/>
     </div>
   )

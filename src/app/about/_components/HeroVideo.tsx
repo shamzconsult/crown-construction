@@ -9,7 +9,7 @@ function HeroVideo() {
         autoPlay
         loop
         muted
-        src="/video/handshake.mp4" 
+        src="/video/construction.mp4" 
 
       >
         {/* <source src="/video/construction-site.mp4" type="video/mp4" /> */}

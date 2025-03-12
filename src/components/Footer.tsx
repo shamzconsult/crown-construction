@@ -52,7 +52,7 @@ function Footer() {
 
                     <li>
                         <a
-                        href="#"
+                        href="https://www.instagram.com/crown_constructionsltd/"
                         rel="noreferrer"
                         target="_blank"
                         className="text-gray-400 transition hover:opacity-75"
@@ -71,7 +71,7 @@ function Footer() {
 
                     <li>
                         <a
-                        href="#"
+                        href="https://x.com/crownsltd"
                         rel="noreferrer"
                         target="_blank"
                         className="text-gray-400 transition hover:opacity-75"
@@ -90,15 +90,14 @@ function Footer() {
                         </a>
                     </li>
 
-
                     <li>
                         <a
-                        href="#"
+                        href="https://wa.me/2348033112824"
                         rel="noreferrer"
                         target="_blank"
                         className="text-gray-400 transition hover:opacity-75"
                         >
-                        <span className="sr-only">Dribbble</span>
+                        <span className="sr-only">WhatsApp</span>
 
                         <svg
                           className="size-5.5"
