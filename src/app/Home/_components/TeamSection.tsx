@@ -15,9 +15,15 @@ function TeamSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4"> 
           {/* Left Side: Text */}
           <div className="lg:col-span-1 flex flex-col justify-center pl-8">
-            <h2 className="text-4xl font-bold mb-4">We Have Extraordinary Members</h2>
-            <p className="text-gray-600 mb-8 max-w-md">
-              We are a rapidly growing, highly diversified service provider with working experience in professionals, skilled craftspeople, and colleges recruiting jobs. Our industry-leading team is here to serve you.
+            <h2 className="text-4xl font-bold mb-4">We Have Extraordinary Team</h2>
+            <p className="text-gray-600 mb-8 max-w-2xl">
+              Our team consists of energetic, skilled, and committed civil and
+              structural engineers, builders, architects, designers, and project
+              managers. Their goal is to help clients live and work in sustainable,
+              eco-friendly structures. <br />
+              We are passionate about revolutionizing the construction industry,
+              adhering to regulatory standards, and keeping our clients informed
+              at every stage of the process.
             </p>
             <button className="bg-teal-900 text-white px-6 py-3 rounded-lg hover:bg-teal-800 transition max-w-[300px]">
                 Explore All Team Members

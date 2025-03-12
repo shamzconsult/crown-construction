@@ -32,7 +32,7 @@ function ServicesSection() {
       <div className="container mx-auto px-4 relative">
         {/* Section Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-yellow-400">We Provide Strong Services For You</h2>
+          <h2 className="text-4xl font-bold mb-4 text-yellow-400">We help You achieve your desired Structure</h2>
           <p className="text-gray-200 max-w-2xl mx-auto">
             Our suite of integrated construction services ensures the highest degree of quality, safety, efficiency, and innovation on your project.
           </p>
@@ -101,7 +101,7 @@ function ServicesSection() {
             <SwiperSlide>
               <div className="bg-white/20 backdrop-blur-md p-8 rounded-lg shadow-lg text-center h-70 flex flex-col justify-between overflow-y-auto">
                 <GiFamilyHouse className="text-5xl text-yellow-400 mx-auto " />
-                <h3 className="text-xl font-bold mb-2 text-white">Real Estate</h3>
+                <h3 className="text-xl font-bold mb-2 text-white">Building Contracting</h3>
                 <p className="text-gray-200">
                   We excel in land acquisition, planning, development, allocation, and property sales.
                 </p>

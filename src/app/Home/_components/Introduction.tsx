@@ -28,7 +28,7 @@ function Introduction() {
         <ul className="space-y-4 text-gray-500">
           <li className="flex items-center gap-4">
             <IoMdCheckmarkCircleOutline className="text-yellow-400 text-xl" />
-            <span>100% Satisfaction Guarantee</span>
+            <span>100% Satisfaction Guaranteed</span>
           </li>
           <li className="flex items-center gap-4">
             <IoMdCheckmarkCircleOutline className="text-yellow-400  text-xl" />
@@ -40,7 +40,7 @@ function Introduction() {
           </li>
           <li className="flex items-center gap-4">
             <IoMdCheckmarkCircleOutline className="text-yellow-400  text-xl" />
-            <span>Real Estate Management</span>
+            <span>Execellent Construction Service</span>
           </li>
         </ul>
       </div>

@@ -48,7 +48,7 @@ function About() {
 
                     <div className="relative h-48 rounded-lg overflow-hidden">
                         <Image
-                            src="/image/Construction1.jpg"
+                            src="/image/service-eng2.webp"
                             alt="Construction Site"
                             layout="fill"
                             objectFit="cover"
