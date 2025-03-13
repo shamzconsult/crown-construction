@@ -126,11 +126,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-:root {
-  --font-emblema: 'Emblema One', cursive;
-}
-
-body {
-  font-family: var(--font-emblema), sans-serif;
-}

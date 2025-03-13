@@ -76,7 +76,7 @@ function Gallery() {
         setCurrentIndex((prev) => (prev - 1 + selectedImages.length % selectedImages.length))
     }
   return (
-    <div className=' font-emblema'>
+    <div className=' font-sans'>
         <div className='  py-10 mx-auto max-w-screen-xl md:px-20 lg:px-0 p-4'>
             <h1 className='text-3xl mb-10 text-teal-900 md:text-5xl font-bold'>Checkout our recent Projects</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
