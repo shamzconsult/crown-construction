@@ -1,13 +1,18 @@
 'use client'
 import React, { useState } from 'react'
 
+
+
 const houseData = [
     {
       id: 1,
       title: "Serenity Haven Homes",
-      location: "Sleman, Yogyakarta",
+      location: "Garki, Abuja",
       price: "$453,600.00",
-      rating: "4.9",
+      rating: "4.7",
+      first_description:"4 Rooms",
+      second_description: "Rooftop",
+      third_description: "Playground",
       images: [
         "/image/building-after.jpg",
         "/image/building-before2.webp",
@@ -17,9 +22,12 @@ const houseData = [
     {
       id: 2,
       title: "Luxury Villa",
-      location: "Bali, Indonesia",
-      price: "$799,900.00",
+      location: "Lekki, Lagos",
+      price: "$79,900.00",
       rating: "5.0",
+      first_description:"5G Network",
+      second_description: "Smart Touch",
+      third_description: "Internet",
       images: [
         "/image/smart-home.jpg",
         "/image/smart-home3.jpg",
@@ -33,6 +41,9 @@ const houseData = [
         location: "Bali, Indonesia",
         price: "$799,900.00",
         rating: "5.0",
+        first_description:"Durability",
+        second_description: "Longetivity",
+        third_description: "Bulk Purchase",
         images: [
             "/image/building-material4.jpeg",
             "/image/building-material2.jpeg",
@@ -42,11 +53,11 @@ const houseData = [
   ];
 
 function Gallery() {
-    const [selectedImages, setSelectedImages] = useState([]);
+    const [selectedImages, setSelectedImages] = useState<string[]>([]);
     const [isModalOpen, setIsMoodalOpen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const openModal = (images) => {
+    const openModal = (images: string[]) => {
         setSelectedImages(images);
         setCurrentIndex(0);
         setIsMoodalOpen(true);
@@ -89,11 +100,11 @@ function Gallery() {
                             <p className="text-sm text-gray-500">{house.location}</p>
 
                             <div className="mt-2 text-xs text-gray-600 flex flex-wrap gap-1">
-                                <span className="px-2 py-1 bg-gray-100 rounded">4 Rooms</span>
+                                <span className="px-2 py-1 bg-gray-100 rounded">{house.first_description}</span>
                                 <span className="text-gray-400 flex items-center">•</span>
-                                <span className="px-2 py-1 bg-gray-100 rounded">Rooftop</span>
+                                <span className="px-2 py-1 bg-gray-100 rounded">{house.second_description}</span>
                                 <span className="text-gray-400 flex items-center">•</span>
-                                <span className="px-2 py-1 bg-gray-100 rounded">Playground</span>
+                                <span className="px-2 py-1 bg-gray-100 rounded">{house.third_description}</span>
                             </div>
 
                             <p className="mt-3 text-lg font-bold text-gray-900">{house.price}</p>
