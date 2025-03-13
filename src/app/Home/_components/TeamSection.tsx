@@ -57,7 +57,7 @@ function TeamSection() {
                       className="rounded-lg"
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Richard Abraham</h3>
+                  <h3 className="text-xl font-bold mb-2">Dr. Raji Nasir-Mustapha</h3>
                   <p className="text-gray-600 mb-4">Founder & CEO</p>
                   <div className="flex justify-center space-x-4">
                     <a href="#" className="text-gray-600 hover:text-blue-500">
@@ -88,8 +88,8 @@ function TeamSection() {
                       className="rounded-lg"
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Lucas Andrew</h3>
-                  <p className="text-gray-600 mb-4">Senior Engineer</p>
+                  <h3 className="text-xl font-bold mb-2">Engr. Femi Omoshewo</h3>
+                  <p className="text-gray-600 mb-4">Technical Engineer</p>
                   <div className="flex justify-center space-x-4">
                     <a href="#" className="text-gray-600 hover:text-blue-500">
                       <FaFacebook className="w-6 h-6" />
@@ -119,8 +119,8 @@ function TeamSection() {
                       className="rounded-lg "
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Lucas Andrew</h3>
-                  <p className="text-gray-600 mb-4">Senior Engineer</p>
+                  <h3 className="text-xl font-bold mb-2">Arch. Yusuf Abdulaziz</h3>
+                  <p className="text-gray-600 mb-4">Technical Engineer</p>
                   <div className="flex justify-center space-x-4">
                     <a href="#" className="text-gray-600 hover:text-blue-500">
                       <FaFacebook className="w-6 h-6" />
@@ -150,8 +150,8 @@ function TeamSection() {
                       className="rounded-lg "
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Lucas Andrew</h3>
-                  <p className="text-gray-600 mb-4">Senior Engineer</p>
+                  <h3 className="text-xl font-bold mb-2">Builder Murital Salawu</h3>
+                  <p className="text-gray-600 mb-4">Constructor</p>
                   <div className="flex justify-center space-x-4">
                     <a href="#" className="text-gray-600 hover:text-blue-500">
                       <FaFacebook className="w-6 h-6" />
