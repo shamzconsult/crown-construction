@@ -50,7 +50,7 @@ function TeamSection() {
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">
                     <Image
-                      src="/image/team.png" 
+                      src="/image/PHOTO-2024-12-12-14-29-49.jpg" 
                       alt="Richard Abraham"
                       layout="fill"
                       objectFit="cover"
@@ -81,7 +81,7 @@ function TeamSection() {
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">
                     <Image
-                      src="/image/team.png"
+                      src="/image/PHOTO-2025-03-12-11-09-27 (1).jpg"
                       alt="Lucas Andrew"
                       layout="fill"
                       objectFit="cover"
@@ -112,11 +112,42 @@ function TeamSection() {
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">
                     <Image
-                      src="/image/team.png" 
+                      src="/image/PHOTO-2025-03-12-11-09-27.jpg" 
                       alt="Lucas Andrew"
                       layout="fill"
                       objectFit="cover"
-                      className="rounded-lg"
+                      className="rounded-lg "
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">Lucas Andrew</h3>
+                  <p className="text-gray-600 mb-4">Senior Engineer</p>
+                  <div className="flex justify-center space-x-4">
+                    <a href="#" className="text-gray-600 hover:text-blue-500">
+                      <FaFacebook className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-blue-400">
+                      <FaTwitter className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-blue-700">
+                      <FaLinkedin className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-pink-500">
+                      <FaInstagram className="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* Team member 4 */}
+              <SwiperSlide>
+                <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                  <div className="relative h-64 w-full mb-4">
+                    <Image
+                      src="/image/PHOTO-2025-03-12-11-09-59.jpg" 
+                      alt="Lucas Andrew"
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg "
                     />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Lucas Andrew</h3>
