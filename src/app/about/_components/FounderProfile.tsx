@@ -36,27 +36,28 @@ function FounderProfile() {
                         </h2>
 
                         <p className="mt-4 text-gray-700 p-2">
-                            Brandbuild.ng is an emerging corporate branding powerhouse,
-                            established to create a unique appearance and excellent outlook for our
-                            clients. We achieve this mandate through holistic branding audits with our
-                            clients and helping them portray their organizations to the admiration of
-                            customers, business associates, and clients alike.
+                            Dr. Nasir Olaitan Raji-Mustapha is the chairman and chief executive officer of Crown Group of Companies. 
+                            A group that comprises Crown Agrovet and Crown Properties and Constructions Limited. He is the Immediate 
+                            Past Director-General of the National Productivity Centre (NPC) in Nigeria.
+                           
                         </p>
                         <p className='mt-2 text-gray-700 p-2'>
-                            We are committed to helping small businesses, corporate organizations,
-                            and development institutions portray excellent representation to the
-                            outside world. We collaborate with these institutions to produce
-                            well-dened and detailed brand assets that resonate with their
-                            organizational philosophy, communicate their value, generate leads, and
-                            attract opportunities.
+                            Professionally, he joined the NPC in 1994 as a Senior Productivity Research Officer. Prior to this, he served 
+                            as a Research Fellow with the European Economic Commission from 1991 to 1993. He also lectured at Haramaya University 
+                            in Ethiopia between 2002 and 2004 under the Nigeria Technical Aid Corps program. 
                         </p>
                         <p className='md:hidden lg:block text-gray-700 p-2 mt-2'> We are intentional about providing quality services to budding businesses,
                             established private organizations, corporate enterprise, development
                             organizations, politicians and private individuals who takes branding
                             seriously and are desirous to create a unique persona that will ultimately
                             propel them for greater opportunities.
-
+                            <br />
+                            He is an astute community builder, a consummate public affairs analyst, an experienced business person and a leader of all and sundry.
                         </p>
+                    </div>
+                    <div className='p-2'>
+                     <Link href='/founder' className='bg-teal-900 text-white p-2 mt-4 flex justify-center  w-48 rounded-sm justify-items-center'>VIEW MORE</Link>
+
                     </div>
                 </div>
                 
