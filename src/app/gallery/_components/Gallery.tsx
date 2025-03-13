@@ -9,9 +9,9 @@ const houseData = [
       price: "$453,600.00",
       rating: "4.9",
       images: [
-        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
-        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
+        "/image/building-after.jpg",
+        "/image/building-before2.webp",
+        "/image/building-before.webp",
       ],
     },
     {
@@ -21,9 +21,9 @@ const houseData = [
       price: "$799,900.00",
       rating: "5.0",
       images: [
-        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
-        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
+        "/image/smart-home.jpg",
+        "/image/smart-home3.jpg",
+        "/image/smart-homes2.jpg",
       ],
     },
 
@@ -34,9 +34,9 @@ const houseData = [
         price: "$799,900.00",
         rating: "5.0",
         images: [
-            "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
-            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
-            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
+            "/image/building-material4.jpeg",
+            "/image/building-material2.jpeg",
+            "/image/building-material.jpg",
         ],
       },
   ];
@@ -66,38 +66,41 @@ function Gallery() {
     }
   return (
     <div className=' font-emblema'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-10 mx-auto max-w-screen-lg md:px-20 lg:px-0 p-4'>
-            {houseData.map((house) => (
-                <article 
-                key={house.id}
-                onClick={() => openModal(house.images)}
-                className="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg relative">
-                    <img
-                        alt={house.title}
-                        src={house.images[0]}
-                        className="h-56 w-full object-cover cursor-pointer"
-                    />
+        <div className='  py-10 mx-auto max-w-screen-xl md:px-20 lg:px-0 p-4'>
+            <h1 className='text-3xl mb-10 text-teal-900 md:text-5xl font-bold'>Checkout our recent Projects</h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                {houseData.map((house) => (
+                    <article 
+                    key={house.id}
+                    onClick={() => openModal(house.images)}
+                    className="overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg relative">
+                        <img
+                            alt={house.title}
+                            src={house.images[0]}
+                            className="h-56 w-full object-cover cursor-pointer"
+                        />
 
-                    <div className="absolute top-3 right-3 flex items-center bg-white text-black text-sm font-semibold px-2 py-1 rounded-full shadow-md">
-                        ⭐ {house.rating}
-                    </div>
-
-                    <div className="bg-white p-4 sm:p-6">
-                        <h3 className="text-lg font-semibold text-gray-900">{house.title}</h3>
-                        <p className="text-sm text-gray-500">{house.location}</p>
-
-                        <div className="mt-2 text-xs text-gray-600 flex flex-wrap gap-1">
-                            <span className="px-2 py-1 bg-gray-100 rounded">4 Rooms</span>
-                            <span className="text-gray-400 flex items-center">•</span>
-                            <span className="px-2 py-1 bg-gray-100 rounded">Rooftop</span>
-                            <span className="text-gray-400 flex items-center">•</span>
-                            <span className="px-2 py-1 bg-gray-100 rounded">Playground</span>
+                        <div className="absolute top-3 right-3 flex items-center bg-white text-black text-sm font-semibold px-2 py-1 rounded-full shadow-md">
+                            ⭐ {house.rating}
                         </div>
 
-                        <p className="mt-3 text-lg font-bold text-gray-900">{house.price}</p>
-                    </div>
-                </article>
-            ))}
+                        <div className="bg-white p-4 sm:p-6">
+                            <h3 className="text-lg font-semibold text-gray-900">{house.title}</h3>
+                            <p className="text-sm text-gray-500">{house.location}</p>
+
+                            <div className="mt-2 text-xs text-gray-600 flex flex-wrap gap-1">
+                                <span className="px-2 py-1 bg-gray-100 rounded">4 Rooms</span>
+                                <span className="text-gray-400 flex items-center">•</span>
+                                <span className="px-2 py-1 bg-gray-100 rounded">Rooftop</span>
+                                <span className="text-gray-400 flex items-center">•</span>
+                                <span className="px-2 py-1 bg-gray-100 rounded">Playground</span>
+                            </div>
+
+                            <p className="mt-3 text-lg font-bold text-gray-900">{house.price}</p>
+                        </div>
+                    </article>
+                ))}
+            </div>
         </div>
 
         {isModalOpen && (
