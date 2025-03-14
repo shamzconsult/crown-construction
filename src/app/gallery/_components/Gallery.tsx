@@ -8,7 +8,7 @@ const houseData = [
       id: 1,
       title: "Serenity Haven Homes",
       location: "Garki, Abuja",
-      price: "$453,600.00",
+      price: "#453,600.00",
       rating: "4.7",
       first_description:"4 Rooms",
       second_description: "Rooftop",
@@ -21,10 +21,10 @@ const houseData = [
     },
     {
       id: 2,
-      title: "Luxury Villa",
+      title: "Smart Lock",
       location: "Lekki, Lagos",
-      price: "$79,900.00",
-      rating: "5.0",
+      price: "#190,900.00",
+      rating: "4.2",
       first_description:"5G Network",
       second_description: "Smart Touch",
       third_description: "Internet",
@@ -34,22 +34,66 @@ const houseData = [
         "/image/smart-homes2.jpg",
       ],
     },
-
     {
-        id: 3,
-        title: "Luxury Villa",
-        location: "Bali, Indonesia",
-        price: "$799,900.00",
-        rating: "5.0",
-        first_description:"Durability",
-        second_description: "Longetivity",
-        third_description: "Bulk Purchase",
-        images: [
-            "/image/building-material4.jpeg",
-            "/image/building-material2.jpeg",
-            "/image/building-material.jpg",
-        ],
-      },
+      id: 3,
+      title: "Building Materials",
+      location: "Bali, Indonesia",
+      price: "#900,900.00",
+      rating: "4.6",
+      first_description:"Durability",
+      second_description: "Longetivity",
+      third_description: "Bulk Purchase",
+      images: [
+          "/image/building-material4.jpeg",
+          "/image/building-material2.jpeg",
+          "/image/building-material.jpg",
+      ],
+    },
+    {
+      id: 4,
+      title: "Contracting",
+      location: "Niger, Nigeria",
+      price: "#700,000.00",
+      rating: "4.5",
+      first_description:"Supervision",
+      second_description: "Longetivity",
+      third_description: "Durability",
+      images: [
+          "/image/gen-contract2.webp",
+          "/image/general-contract1.jpg",
+          "/image/general-contract3.webp",
+      ],
+    },
+    {
+      id: 5,
+      title: "Housing Contracting",
+      location: "Gwarimpa, Abuja",
+      price: "#20,000,000.00",
+      rating: "4.0",
+      first_description:"Lasting Structures",
+      second_description: "Quality Materials",
+      third_description: "Availability",
+      images: [
+          "/image/building3.jpg",
+          "/image/building2.png",
+          "/image/building1.jpg",
+      ],
+    },
+    {
+      id: 6,
+      title: "Building Materials",
+      location: "Bali, Indonesia",
+      price: "#10,000,000.00",
+      rating: "4.3",
+      first_description:"Timeless Architecture",
+      second_description: "Longetivity",
+      third_description: "Exclusive Deals",
+      images: [
+          "/image/construction-hero.jpg",
+          "/image/building-material2.jpeg",
+          "/image/building-material.jpg",
+      ],
+    },
   ];
 
 function Gallery() {
@@ -76,8 +120,8 @@ function Gallery() {
         setCurrentIndex((prev) => (prev - 1 + selectedImages.length % selectedImages.length))
     }
   return (
-    <div className=' font-emblema'>
-        <div className='  py-10 mx-auto max-w-screen-xl md:px-20 lg:px-0 p-4'>
+    <div className=' font-sans'>
+        <div className='py-10 mx-auto max-w-screen-xl px-10 md:px-20 lg:px-0 p-4'>
             <h1 className='text-3xl mb-10 text-teal-900 md:text-5xl font-bold'>Checkout our recent Projects</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {houseData.map((house) => (
@@ -119,7 +163,7 @@ function Gallery() {
           <div className="relative w-11/12 md:w-3/5 lg:w-2/5">
             <button
               onClick={closeModal}
-              className="absolute top-3 right-3 text-white text-xl font-bold cursor-pointer"
+              className="absolute top-3 right-3 bg-black p-2 rounded-full text-white text-xl font-bold cursor-pointer"
             >
               ✕
             </button>
