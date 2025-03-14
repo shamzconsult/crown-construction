@@ -142,7 +142,7 @@ function TeamSection() {
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">
                     <Image
-                      src="/image/PHOTO-2025-03-12-11-09-59.jpg" 
+                      src="/image/PHOTO-2025-03-12-11-09-59-removebg-preview.png" 
                       alt="Builder Murital Salawu"
                       layout="fill"
                       objectFit="contain"
