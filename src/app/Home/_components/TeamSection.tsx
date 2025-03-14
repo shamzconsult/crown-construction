@@ -25,9 +25,7 @@ function TeamSection() {
               adhering to regulatory standards, and keeping our clients informed
               at every stage of the process.
             </p>
-            <button className="bg-teal-900 text-white px-6 py-3 rounded-lg hover:bg-teal-800 transition max-w-[300px]">
-                Explore All Team Members
-            </button>
+            
           </div>
 
           {/* Right Side: Swiper Slider */}
@@ -51,12 +49,13 @@ function TeamSection() {
                   <div className="relative h-64 w-full mb-4">
                     <Image
                       src="/image/PHOTO-2024-12-12-14-29-49.jpg" 
-                      alt="Richard Abraham"
+                      alt="Dr. Raji Nasir-Mustapha"
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain" 
                       className="rounded-lg"
                     />
                   </div>
+
                   <h3 className="text-xl font-bold mb-2">Dr. Raji Nasir-Mustapha</h3>
                   <p className="text-gray-600 mb-4">Founder & CEO</p>
                   <div className="flex justify-center space-x-4">
@@ -82,9 +81,9 @@ function TeamSection() {
                   <div className="relative h-64 w-full mb-4">
                     <Image
                       src="/image/PHOTO-2025-03-12-11-09-27 (1).jpg"
-                      alt="Lucas Andrew"
+                      alt="Engr. Femi Omoshewo"
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className="rounded-lg"
                     />
                   </div>
@@ -113,9 +112,9 @@ function TeamSection() {
                   <div className="relative h-64 w-full mb-4">
                     <Image
                       src="/image/PHOTO-2025-03-12-11-09-27.jpg" 
-                      alt="Lucas Andrew"
+                      alt="Arch. Yusuf Abdulaziz"
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className="rounded-lg "
                     />
                   </div>
@@ -144,9 +143,9 @@ function TeamSection() {
                   <div className="relative h-64 w-full mb-4">
                     <Image
                       src="/image/PHOTO-2025-03-12-11-09-59.jpg" 
-                      alt="Lucas Andrew"
+                      alt="Builder Murital Salawu"
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className="rounded-lg "
                     />
                   </div>
