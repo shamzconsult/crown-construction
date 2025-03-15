@@ -111,7 +111,7 @@ function TeamSection() {
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">
                     <Image
-                      src="/image/Mrs-kikelomo.png" 
+                      src="/image/mrs-kikielomo-new.png" 
                       alt="Dr. Raji Nasir-Mustapha"
                       layout="fill"
                       objectFit="cover" 
@@ -174,7 +174,7 @@ function TeamSection() {
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">
                     <Image
-                      src="/image/PHOTO-2024-12-12-14-28-37-removebg-preview.png" 
+                      src="/image/miss-latifat-new.png" 
                       alt="Dr. Raji Nasir-Mustapha"
                       layout="fill"
                       objectFit="contain" 
