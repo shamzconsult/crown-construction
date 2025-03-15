@@ -106,7 +106,39 @@ function TeamSection() {
                 </div>
               </SwiperSlide>
 
-              {/* Team Member 3 */}
+              {/* Team member 3 */}
+              <SwiperSlide>
+                <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                  <div className="relative h-64 w-full mb-4">
+                    <Image
+                      src="/image/mrs-kikielomo-new.png" 
+                      alt="Dr. Raji Nasir-Mustapha"
+                      layout="fill"
+                      objectFit="cover" 
+                      className="rounded-lg"
+                    />
+                  </div>
+
+                  <h3 className="text-xl font-bold mb-2">Latifat Kikelomo Nasir-Raji</h3>
+                  <p className="text-gray-600 mb-4">Team Member</p>
+                  <div className="flex justify-center space-x-4">
+                    <a href="#" className="text-gray-600 hover:text-blue-500">
+                      <FaFacebook className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-blue-400">
+                      <FaTwitter className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-blue-700">
+                      <FaLinkedin className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-pink-500">
+                      <FaInstagram className="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* Team Member 4 */}
               <SwiperSlide>
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">
@@ -137,7 +169,39 @@ function TeamSection() {
                 </div>
               </SwiperSlide>
 
-              {/* Team member 4 */}
+              {/* Team member 5 */}
+              <SwiperSlide>
+                <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                  <div className="relative h-64 w-full mb-4">
+                    <Image
+                      src="/image/miss-latifat-new.png" 
+                      alt="Dr. Raji Nasir-Mustapha"
+                      layout="fill"
+                      objectFit="contain" 
+                      className="rounded-lg"
+                    />
+                  </div>
+
+                  <h3 className="text-xl font-bold mb-2">Aisha Oluwatosin Nasir-Raji</h3>
+                  <p className="text-gray-600 mb-4">Team Member</p>
+                  <div className="flex justify-center space-x-4">
+                    <a href="#" className="text-gray-600 hover:text-blue-500">
+                      <FaFacebook className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-blue-400">
+                      <FaTwitter className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-blue-700">
+                      <FaLinkedin className="w-6 h-6" />
+                    </a>
+                    <a href="#" className="text-gray-600 hover:text-pink-500">
+                      <FaInstagram className="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* Team member 6 */}
               <SwiperSlide>
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   <div className="relative h-64 w-full mb-4">

@@ -7,8 +7,6 @@ const houseData = [
     {
       id: 1,
       title: "Serenity Haven Homes",
-      location: "Garki, Abuja",
-      price: "#453,600.00",
       rating: "4.7",
       first_description:"4 Rooms",
       second_description: "Rooftop",
@@ -22,8 +20,6 @@ const houseData = [
     {
       id: 2,
       title: "Smart Lock",
-      location: "Lekki, Lagos",
-      price: "#190,900.00",
       rating: "4.2",
       first_description:"5G Network",
       second_description: "Smart Touch",
@@ -37,8 +33,6 @@ const houseData = [
     {
       id: 3,
       title: "Building Materials",
-      location: "Bali, Indonesia",
-      price: "#900,900.00",
       rating: "4.6",
       first_description:"Durability",
       second_description: "Longetivity",
@@ -52,8 +46,6 @@ const houseData = [
     {
       id: 4,
       title: "Contracting",
-      location: "Niger, Nigeria",
-      price: "#700,000.00",
       rating: "4.5",
       first_description:"Supervision",
       second_description: "Longetivity",
@@ -67,8 +59,6 @@ const houseData = [
     {
       id: 5,
       title: "Housing Contracting",
-      location: "Gwarimpa, Abuja",
-      price: "#20,000,000.00",
       rating: "4.0",
       first_description:"Lasting Structures",
       second_description: "Quality Materials",
@@ -82,8 +72,6 @@ const houseData = [
     {
       id: 6,
       title: "Building Materials",
-      location: "Bali, Indonesia",
-      price: "#10,000,000.00",
       rating: "4.3",
       first_description:"Timeless Architecture",
       second_description: "Longetivity",
@@ -122,7 +110,7 @@ function Gallery() {
   return (
     <div className=' font-sans'>
         <div className='py-10 mx-auto max-w-screen-xl px-10 md:px-20 lg:px-0 p-4'>
-            <h1 className='text-3xl mb-10 text-teal-900 md:text-5xl font-bold'>Checkout our recent Projects</h1>
+            <h1 className='text-3xl mb-10 text-teal-900 md:text-5xl font-bold'>Checkout our Offerings</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {houseData.map((house) => (
                     <article 
@@ -141,7 +129,7 @@ function Gallery() {
 
                         <div className="bg-white p-4 sm:p-6">
                             <h3 className="text-lg font-semibold text-gray-900">{house.title}</h3>
-                            <p className="text-sm text-gray-500">{house.location}</p>
+                            {/* <p className="text-sm text-gray-500">{house.location}</p> */}
 
                             <div className="mt-2 text-xs text-gray-600 flex flex-wrap gap-1">
                                 <span className="px-2 py-1 bg-gray-100 rounded">{house.first_description}</span>
@@ -151,7 +139,7 @@ function Gallery() {
                                 <span className="px-2 py-1 bg-gray-100 rounded">{house.third_description}</span>
                             </div>
 
-                            <p className="mt-3 text-lg font-bold text-gray-900">{house.price}</p>
+                            {/* <p className="mt-3 text-lg font-bold text-gray-900">{house.price}</p> */}
                         </div>
                     </article>
                 ))}
