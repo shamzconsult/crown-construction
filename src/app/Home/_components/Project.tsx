@@ -41,7 +41,7 @@ function Project() {
                 className="w-1/2 object-cover " 
             />
             <Image 
-                src="/image/House5.webp" 
+                src="/image/building-material4.jpeg" 
                 alt="Project 2" width={600} 
                 height={400} 
                 className="w-1/2 object-cover " 
@@ -55,21 +55,21 @@ function Project() {
                 alt="Project 3" 
                 width={300} 
                 height={200} 
-                className="w-1/3 h-96 object-cover " 
+                className="w-1/2 md:w-1/3 h-96 object-cover " 
             />
             <Image 
-                src="/image/house8.webp" 
+                src="/image/smart-home.jpg" 
                 alt="Project 4" 
                 width={300} 
                 height={200} 
-                className="w-1/3 h-96 object-cover " 
+                className="w-1/2 md:w-1/3 h-96 object-cover " 
             />
             <Image 
                 src="/image/House5.webp" 
                 alt="Project 5" 
                 width={300} 
                 height={200} 
-                className="w-1/3 h-96 object-cover " 
+                className="md:w-1/3 h-96 object-cover hidden md:block " 
             />
           </div>
         </div>

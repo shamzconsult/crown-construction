@@ -13,7 +13,7 @@ function About() {
                     <h2 className="text-4xl font-bold mb-4">See How We Manage <span className='text-yellow-400'>Our Projects</span> </h2>
                    
                     <p className="text-gray-600 mt-4">
-                        Our business approach is client-focused and qualitydriven. We leverage cutting-edge technology to
+                        Our business approach is client-focused and quality driven. We leverage cutting-edge technology to
                         deliver exceptional results. From concept and design to execution, we ensure our dedicated team
                         collaborates closely with clients to perfectly execute their ideas.
                         Our designs are human-centered, and environmental sustainability is our mantra. We emphasize this
@@ -38,7 +38,7 @@ function About() {
                                     Our Vision
                                 </h3>
                                 <p className='text-sm md:text-lg'>
-                                    To be a leading construction and property development company in
+                                    A leading construction and property development company in
                                     Nigeria, setting the benchmark for innovation, reliability, and
                                     sustainability.
                                 </p>

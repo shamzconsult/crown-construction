@@ -32,7 +32,7 @@ function ServicesSection() {
       <div className="container mx-auto px-4 relative">
         {/* Section Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-yellow-400">We help You achieve your desired Structure</h2>
+          <h2 className="text-4xl font-bold mb-4 text-yellow-400">We help You achieve your desired Structures</h2>
           <p className="text-gray-200 max-w-2xl mx-auto">
             Our suite of integrated construction services ensures the highest degree of quality, safety, efficiency, and innovation on your project.
           </p>

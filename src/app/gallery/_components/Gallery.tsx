@@ -64,22 +64,22 @@ const houseData = [
       second_description: "Quality Materials",
       third_description: "Availability",
       images: [
-          "/image/building3.jpg",
-          "/image/building2.png",
+          "/image/House5.webp",
+          "/image/service-eng5.jpg",
           "/image/building1.jpg",
       ],
     },
     {
       id: 6,
-      title: "Building Materials",
+      title: "Real Estate Development",
       rating: "4.3",
       first_description:"Timeless Architecture",
       second_description: "Longetivity",
       third_description: "Exclusive Deals",
       images: [
-          "/image/construction-hero.jpg",
-          "/image/building-material2.jpeg",
-          "/image/building-material.jpg",
+          "/image/real-estate.jpg",
+          "/image/real-estate2.jpg",
+          "/image/real-estate-3.jpg",
       ],
     },
   ];
