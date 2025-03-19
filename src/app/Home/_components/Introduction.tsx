@@ -14,7 +14,9 @@ function Introduction() {
           We Build Everything As Your <span className="text-yellow-400 text-5xl">Dream</span>
         </h2>
         <p className="text-gray-500 mb-8">
-          Crown Properties and Constructions Limited is a leading construction firm committed to providing affordable housing and advancing sustainable structures. Our mission goes beyond meeting the needs of individuals and organizations—it also includes safeguarding our environment.
+          Crown Properties and Constructions Limited is a leading construction firm committed to providing 
+          affordable housing and advancing sustainable structures. Our mission goes beyond meeting the needs of 
+          individuals and organizations, it also includes safeguarding our environment.
         </p>
         <p className="text-gray-500 mb-8 hidden lg:block">
             We achieve this through keen attention to industry

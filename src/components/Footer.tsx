@@ -8,6 +8,7 @@ function Footer() {
     const pathname = usePathname();
     const isOnServicesPage = pathname === "/services";
     const isOnAboutPage = pathname === "/about"
+    const isOnHomePage = pathname === "/"
   return (
     <footer className="bg-teal-900">
         <div className="mx-auto max-w-screen-2xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
@@ -33,12 +34,12 @@ function Footer() {
                 <ul className="mt-8 flex gap-6">
                     <li>
                         <a
-                        href="#"
+                        href="https://www.linkedin.com/company/106672800/admin/dashboard/"
                         rel="noreferrer"
                         target="_blank"
                         className="text-gray-400 transition hover:opacity-75"
                         >
-                        <span className="sr-only">Facebook</span>
+                        <span className="sr-only">LinkedIn</span>
 
                         <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                           <path 
@@ -164,7 +165,7 @@ function Footer() {
                         </li>
 
                         <li >
-                            <Link href={isOnAboutPage ? "#team" : "/about#team"} className="text-gray-400 transition hover:opacity-75"> Meet the Team </Link>
+                            <Link href={isOnHomePage ? "#team" : "/#team"} className="text-gray-400 transition hover:opacity-75"> Meet the Team </Link>
                         </li >
 
                         <li >

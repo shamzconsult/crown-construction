@@ -94,7 +94,7 @@ const Header = () => {
 
           {isMenuOpen && (
             <nav className="absolute top-full left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center gap-4 text-black ">
-              <Link className="text-base font-medium hover:text-gray-500" href="/about">
+              <Link className="text-base font-medium hover:text-gray-500" href="/">
                 Home
               </Link>
               <Link className="text-base font-medium hover:text-gray-500" href="/about">

@@ -7,17 +7,21 @@ function FounderProfile() {
         <div className="mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
                 <div className='mb-20 md:mb-4'>
-                    <img
-                    src="/image/PHOTO-2024-12-12-14-29-49.jpg"
-                    className="rounded max-w-lg md:w-96 lg:w-full"
-                    alt=""
-                    />
+                    <div className='flex justify-center'>
+                        <img
+                        src="/image/PHOTO-2024-12-12-14-29-49.jpg"
+                        className="rounded max-w-lg w-96 md:w-96 lg:w-full"
+                        alt=""
+                        />
+                    </div>
+                    
+
                     <div className='text-center'>
-                        <h1 className='text-2xl font-semibold mt-2'>Abdulrasaq Kaosarah Adeyi</h1>
+                        <h1 className='text-2xl font-semibold mt-2'>Dr. Raji Nasir-Mustapha</h1>
                         <p className='font-semibold'>Founder and CEO</p>
                         <div>
                             <Link
-                                href="https://"
+                                href="https://www.linkedin.com/in/dr-nasir-olaitan-raji-mustapha-4b3167318/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="linkedin"

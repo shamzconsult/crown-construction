@@ -10,7 +10,7 @@ function FounderPage() {
                     <div className='flex justify-center'>
                         <img
                         src="/image/PHOTO-2024-12-12-14-29-49.jpg"
-                        className="rounded max-w-lg md:w-96 lg:w-full"
+                        className="rounded max-w-lg w-96 md:w-96 lg:w-full"
                         alt=""
                         />
                     </div>

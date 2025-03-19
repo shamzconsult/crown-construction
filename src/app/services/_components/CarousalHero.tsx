@@ -13,7 +13,8 @@ import {
 } from "@/components/ui/carousel";
 
 const images = [
-    { src: "/image/services-hero.jpg", text: "Building the Future with Excellence" },
+  { src: "/image/services-eng1.webp", text: "Transforming Visions into Reality" },
+    { src: "/image/services-hero.jpg", text: "Shaping the Future with Excellence" },
     { src: "/image/service-eng5.jpg", text: "Innovative Engineering Solutions" },
     { src: "/image/service-eng2.webp", text: "Reliable and Efficient Construction" },
     { src: "/image/services-eng2.jpg", text: "Precision and Quality in Every Project" },

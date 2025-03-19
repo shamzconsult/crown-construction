@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 function TeamSection() {
   return (
-    <section className="relative py-16 ">
+    <section className="relative py-16" id='team'>
       <div className="container mx-auto max-w-screen-2xl px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4"> 
           {/* Left Side: Text */}
@@ -59,13 +59,13 @@ function TeamSection() {
                   <h3 className="text-xl font-bold mb-2">Dr. Raji Nasir-Mustapha</h3>
                   <p className="text-gray-600 mb-4">Founder & CEO</p>
                   <div className="flex justify-center space-x-4">
-                    <a href="#" className="text-gray-600 hover:text-blue-500">
+                    <a href="https://facebook.com/nasir.o.rajimustapha" target='blank' className="text-gray-600 hover:text-blue-500">
                       <FaFacebook className="w-6 h-6" />
                     </a>
                     <a href="#" className="text-gray-600 hover:text-blue-400">
                       <FaTwitter className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-700">
+                    <a href="https://www.linkedin.com/in/dr-nasir-olaitan-raji-mustapha-4b3167318/" target='blank' className="text-gray-600 hover:text-blue-700">
                       <FaLinkedin className="w-6 h-6" />
                     </a>
                     <a href="#" className="text-gray-600 hover:text-pink-500">
@@ -90,18 +90,18 @@ function TeamSection() {
                   <h3 className="text-xl font-bold mb-2">Engr. Femi Omoshewo</h3>
                   <p className="text-gray-600 mb-4">Technical Engineer</p>
                   <div className="flex justify-center space-x-4">
-                    <a href="#" className="text-gray-600 hover:text-blue-500">
+                    <a href="https://facebook.com/omoshewo.abdulrasaqfemi" target='blank' className="text-gray-600 hover:text-blue-500">
                       <FaFacebook className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-400">
+                    {/* <a href="#" className="text-gray-600 hover:text-blue-400">
                       <FaTwitter className="w-6 h-6" />
-                    </a>
+                    </a> */}
                     <a href="#" className="text-gray-600 hover:text-blue-700">
                       <FaLinkedin className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-pink-500">
+                    {/* <a href="#" className="text-gray-600 hover:text-pink-500">
                       <FaInstagram className="w-6 h-6" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -175,7 +175,7 @@ function TeamSection() {
                   <div className="relative h-64 w-full mb-4">
                     <Image
                       src="/image/miss-latifat-new.png" 
-                      alt="Dr. Raji Nasir-Mustapha"
+                      alt="Oluwatosin Nasir-Mustapha"
                       layout="fill"
                       objectFit="contain" 
                       className="rounded-lg"
@@ -185,16 +185,16 @@ function TeamSection() {
                   <h3 className="text-xl font-bold mb-2">Aisha Oluwatosin Nasir-Raji</h3>
                   <p className="text-gray-600 mb-4">Team Member</p>
                   <div className="flex justify-center space-x-4">
-                    <a href="#" className="text-gray-600 hover:text-blue-500">
+                    {/* <a href="#" className="text-gray-600 hover:text-blue-500">
                       <FaFacebook className="w-6 h-6" />
                     </a>
                     <a href="#" className="text-gray-600 hover:text-blue-400">
                       <FaTwitter className="w-6 h-6" />
-                    </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-700">
+                    </a> */}
+                    <a href="https://www.linkedin.com/in/aisha-nasir-raji-a069591b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-gray-600 hover:text-blue-700">
                       <FaLinkedin className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-pink-500">
+                    <a href="https://www.instagram.com/nasir_ayeesha/profilecard/?igsh=cDJueDVubWtsd3Fx" className="text-gray-600 hover:text-pink-500">
                       <FaInstagram className="w-6 h-6" />
                     </a>
                   </div>
@@ -213,7 +213,7 @@ function TeamSection() {
                       className="rounded-lg "
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Builder Murital Salawu</h3>
+                  <h3 className="text-xl font-bold mb-2">Builder Muritala Salawu</h3>
                   <p className="text-gray-600 mb-4">Constructor</p>
                   <div className="flex justify-center space-x-4">
                     <a href="#" className="text-gray-600 hover:text-blue-500">
