@@ -46,13 +46,13 @@ function Hero() {
           <h1 className="text-5xl font-extrabold text-white sm:text-5xl">
             Building{" "}
             <strong className="block font-extrabold md:text-7xl text-yellow-400">Smart Homes,</strong>
-            <span className="text-3xl">Advancing Environmental Sustainability</span>
+            <span className="text-xl">Advancing Environmental Sustainability</span>
           </h1>
 
-          <p className="mt-4 max-w-xl text-white sm:text-xl/relaxed">
+          {/* <p className="mt-4 max-w-xl text-white sm:text-xl/relaxed">
             Our designs are human-centered, and environmental sustainability is our mantra. We emphasize this
             commitment to customers every step of the way.
-          </p>
+          </p> */}
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
             <a

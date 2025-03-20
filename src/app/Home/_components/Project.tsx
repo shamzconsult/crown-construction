@@ -38,13 +38,13 @@ function Project() {
                 alt="Project 1"
                 width={600} 
                 height={400} 
-                className="w-1/2 object-cover " 
+                className="w-1/2 h-96 object-cover " 
             />
             <Image 
                 src="/image/building-material4.jpeg" 
                 alt="Project 2" width={600} 
                 height={400} 
-                className="w-1/2 object-cover " 
+                className="w-1/2 h-96 object-cover " 
             />
           </div>
 
