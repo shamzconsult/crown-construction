@@ -7,7 +7,7 @@ import { GrUserExpert } from "react-icons/gr";
 
 function Introduction() {
   return (
-    <div className="mx-auto max-w-screen-2xl p-10 md:flex py-20">
+    <div className="mx-auto max-w-screen-2xl p-10 md:flex py-20" id='introduction'>
       {/* Text area */}
       <div className="md:w-2/5 pr-8">
         <h2 className="text-4xl font-bold mb-6 ">
