@@ -20,7 +20,7 @@ function Introduction() {
         </p>
         <p className="text-gray-500 mb-8 hidden lg:block">
             We achieve this through keen attention to industry
-            trends and the Integration of innovative, cuttingedge technologies to deliver exceptional Value to
+            trends and the Integration of innovative, cutting edge technologies to deliver exceptional Value to
             our clients.
             From real estate development and road
             construction to housing and Urban development,
@@ -42,7 +42,7 @@ function Introduction() {
           </li>
           <li className="flex items-center gap-4">
             <IoMdCheckmarkCircleOutline className="text-yellow-400  text-xl" />
-            <span>Execellent Construction Service</span>
+            <span>Excellent Construction Service</span>
           </li>
         </ul>
       </div>

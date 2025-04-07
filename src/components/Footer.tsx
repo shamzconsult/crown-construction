@@ -169,7 +169,11 @@ function Footer() {
                         </li >
 
                         <li >
-                            <Link href={isOnAboutPage ? "#vision" : "/about#vision"} className="text-gray-400 transition hover:opacity-75"> Vision & Mission </Link>
+                            <Link href={isOnAboutPage ? "#vision" : "/about#vision"} className="text-gray-400 transition hover:opacity-75"> Vision </Link>
+                        </li >
+
+                        <li >
+                            <Link href={isOnAboutPage ? "#vision" : "/about#vision"} className="text-gray-400 transition hover:opacity-75"> Mission </Link>
                         </li >
                     </ul>
                 </div>
@@ -199,20 +203,20 @@ function Footer() {
 
                     <ul className="mt-6 space-y-4 text-sm">
                         <li>
-                        <a href="/about" className="text-gray-400 transition hover:opacity-75"> About Us </a>
+                        <a href="/gallery" className="text-gray-400 transition hover:opacity-75"> Gallery </a>
                         </li>
 
                         <li>
-                        <a href="/services" className="text-gray-400 transition hover:opacity-75"> Services </a>
+                        <Link href={isOnAboutPage ? "#vision" : "/about#vison"} className="text-gray-400 transition hover:opacity-75"> Goals </Link>
                         </li>
 
                         <li>
-                        <a href="contact" className="text-gray-400 transition hover:opacity-75"> Contact Us</a>
+                        <a href={isOnAboutPage ? "#audience" : "/about#audience"} className="text-gray-400 transition hover:opacity-75"> Targeted Audience</a>
                         </li>
 
                         <li>
-                        <a href="/faq" className="text-gray-400 transition hover:opacity-75">
-                            FAQ
+                        <a href="/founder" className="text-gray-400 transition hover:opacity-75">
+                            Founder
                         </a>
                         </li>
                     </ul>

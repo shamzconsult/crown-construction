@@ -19,7 +19,7 @@ import Image from 'next/image';
 
 function AudienceSection() {
   return (
-    <section className="relative py-16 bg-gray-100">
+    <section className="relative py-16 bg-gray-100" id='audience'>
       {/* Background Image */}
       <Image
         src="/image/services-eng1.webp"
